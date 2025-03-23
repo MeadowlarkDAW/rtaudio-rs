@@ -2,7 +2,7 @@
 name = "rtaudio-sys"
 version = "0.3.5"
 edition = "2021"
-authors = ["Billy Messenger <BillyDM@tutamail.com>"]
+authors = ["Billy Messenger <60663878+BillyDM@users.noreply.github.com>"]
 description = "Raw bindings for RtAudio"
 license = "MIT"
 repository = "https://github.com/MeadowlarkDAW/rtaudio-rs"

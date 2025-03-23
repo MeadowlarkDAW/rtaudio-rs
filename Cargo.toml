@@ -2,7 +2,7 @@
 name = "rtaudio"
 version = "0.3.5"
 edition = "2021"
-authors = ["Billy Messenger <BillyDM@tutamail.com>"]
+authors = ["Billy Messenger <60663878+BillyDM@users.noreply.github.com>"]
 description = "Safe Rust wrapper and bindings for RtAudio"
 license = "MIT"
 repository = "https://github.com/MeadowlarkDAW/rtaudio-rs"
