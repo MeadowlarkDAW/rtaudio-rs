@@ -1,0 +1,32 @@
+[package]
+name = "rtaudio-sys"
+version = "0.3.5"
+edition = "2021"
+authors = ["Billy Messenger <BillyDM@tutamail.com>"]
+description = "Raw bindings for RtAudio"
+license = "MIT"
+repository = "https://github.com/MeadowlarkDAW/rtaudio-rs"
+readme = "README.md"
+keywords = ["audio", "sound", "rtaudio"]
+categories = ["multimedia::audio", "external-ffi-bindings"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+default = ["coreaudio", "alsa", "pulse", "oss", "wasapi", "ds"]
+coreaudio = []
+alsa = []
+jack_linux = []
+pulse = []
+oss = []
+asio = []
+wasapi = []
+ds = []
+
+[dependencies]
+
+[build-dependencies]
+cmake = "0.1"
+
+[target.'cfg(any(target_os="linux", target_os = "freebsd", target_os = "openbsd", target_os = "netbsd"))'.build-dependencies]
+pkg-config = "0.3"
