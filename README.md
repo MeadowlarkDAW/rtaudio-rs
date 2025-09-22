@@ -3,6 +3,8 @@
 [![Crates.io](https://img.shields.io/crates/v/rtaudio.svg)](https://crates.io/crates/rtaudio)
 [![License](https://img.shields.io/crates/l/rtaudio.svg)](https://github.com/BillyDM/rtaudio-rs/blob/main/LICENSE)
 
+> This project has moved to [Codeberg](https://codeberg.org/Meadowlark/rtaudio-rs).
+
 Safe Rust wrapper and bindings for [RtAudio](https://github.com/thestk/rtaudio) (version 6).
 
 # Usage Example
